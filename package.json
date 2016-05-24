@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "RAML API demo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run generate:html",
     "generate:html": "./node_modules/.bin/raml2html ./node_modules/raml2html/examples/raml1.0/example.raml > ./raml.html"
   },
   "repository": {
